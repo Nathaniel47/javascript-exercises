@@ -12,9 +12,8 @@ const palindromes = function (string) {
     .reverse()
     .join();
 
-    
-    
-    
+
+    return cleanedString === reversedString;   
 
 };
 
