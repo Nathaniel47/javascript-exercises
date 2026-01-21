@@ -3,14 +3,14 @@ const palindromes = function (string) {
 
     const cleanedString = string
     .toLowerCase()
-    .split()
+    .split('')
     .filter(character => alphanumeric.includes(character))
-    .join();
+    .join('');
 
     const reversedString = cleanedString
-    .split()
+    .split('')
     .reverse()
-    .join();
+    .join('');
 
 
     return cleanedString === reversedString;   
