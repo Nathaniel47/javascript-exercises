@@ -1,4 +1,8 @@
-const palindromes = function () {
+const palindromes = function (string) {
+    const alphanumeric = 'abcdefghijklmnopqrstuvwxyz0123456789';
+
+    
+    
 
 };
 
